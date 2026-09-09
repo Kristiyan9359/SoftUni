@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-content {
+    width: 300px;    
+    margin: auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.form-header {
+    border-bottom: 2px solid rgb(186, 186, 186);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+.form-group label::after {
+    content: '*';
+    color: red;
+    margin-left: 3px;
+}
+
+.form-group input {
+    border: 2px solid rgb(186, 186, 186);
+    border-radius: 3px;
+    padding: 10px 5px;
+}
+
+.form-group input[type=submit] {
+    background-color: #ff8c00;
+    border: none;
+    cursor: pointer;
+}

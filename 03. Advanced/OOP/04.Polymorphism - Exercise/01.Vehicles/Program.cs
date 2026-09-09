@@ -1,0 +1,55 @@
+﻿using _01.Vehicles.Models;
+
+public class Program
+{
+    static void Main()
+    {
+        string[] carInput = Console.ReadLine().Split();
+        string[] truckInput = Console.ReadLine().Split();
+
+        Car car = new Car(double.Parse(carInput[1]), double.Parse(carInput[2]));
+        Truck truck = new Truck(double.Parse(truckInput[1]), double.Parse(truckInput[2]));
+
+        int numberOfCommands = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < numberOfCommands; i++)
+        {
+            try
+            {
+                string[] commandArgs = Console.ReadLine().Split();
+                string command = commandArgs[0];
+                string vehicleType = commandArgs[1];
+                double value = double.Parse(commandArgs[2]);
+                if (vehicleType == "Car")
+                {
+                    if (command == "Drive")
+                    {
+                        Console.WriteLine(car.Drive(value));
+                    }
+                    else if (command == "Refuel")
+                    {
+                        car.Refuel(value);
+                    }
+                }
+                else if (vehicleType == "Truck")
+                {
+                    if (command == "Drive")
+                    {
+                        Console.WriteLine(truck.Drive(value));
+                    }
+                    else if (command == "Refuel")
+                    {
+                        truck.Refuel(value);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+        }
+        Console.WriteLine($"Car: {car.FuelQuantity:F2}");
+        Console.WriteLine($"Truck: {truck.FuelQuantity:F2}");
+    }
+}

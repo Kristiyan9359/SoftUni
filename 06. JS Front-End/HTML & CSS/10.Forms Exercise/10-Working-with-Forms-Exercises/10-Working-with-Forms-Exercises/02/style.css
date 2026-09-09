@@ -1,0 +1,71 @@
+:root {
+    --secondary-color: rgb(186, 186, 186);
+    --secondary-text-color: rgb(129, 129, 129);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-content {
+    width: 300px;    
+    margin: auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.form-header {
+    border-bottom: 2px solid var(--secondary-color)
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-group-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-header i {
+    font-size: 0.75em;
+}
+
+.form-group-message {
+    font-size: 0.55em;
+    font-style: italic;
+    color: var(--secondary-text-color);
+    font-weight: bold;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+.form-group label::after {
+    content: '*';
+    color: red;
+    margin-left: 3px;
+}
+
+.form-group input {
+    border: 2px solid var(--secondary-color);
+    border-radius: 3px;
+    padding: 10px 5px;
+}
+
+.form-group input[type=submit] {
+    background-color: #ff8c00;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Books";
+}
+
+<div class="d-flex align-items-center justify-content-between mb-3">
+    <h1 class="mb-0">Books</h1>
+
+    <a class="btn btn-primary" asp-controller="Books" asp-action="Create">
+        + Add Book
+    </a>
+</div>
+
+<partial name="_AllBooksPartial" model="@Model"/>

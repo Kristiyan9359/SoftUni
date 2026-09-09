@@ -1,0 +1,17 @@
+.visible{
+    overflow: visible;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+div {
+    width: 350px;
+    height: 100px;
+    border: 2px solid black;
+}

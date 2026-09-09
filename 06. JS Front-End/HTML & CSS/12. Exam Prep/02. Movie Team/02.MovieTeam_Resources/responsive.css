@@ -1,0 +1,95 @@
+@media (max-width: 600px) {
+
+    /* Navigation */
+
+    header nav,
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul li {
+        display: block;
+        padding: 0.3rem 0;
+    }
+
+    /* Hero */
+
+    .header-title {
+        padding: 2rem 1rem;
+    }
+
+    .header-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-title p {
+        font-size: 1.2rem;
+    }
+
+    /* Team */
+
+    .team-description-wrapper,
+    .about-us {
+        width: 95%;
+    }
+
+    .team-description ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .team-description ul li {
+        flex: 0 0 40%;
+    }
+
+    .team-description ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* About */
+
+    .about-us p:nth-child(3) {
+        width: 100%;
+    }
+
+    /* Choose us */
+
+    .choose-us ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .choose-us li {
+        flex: 0 0 100%;
+        width: 90%;
+    }
+
+    /* Blog */
+
+    .blog-news ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .blog-news ul .item {
+        flex: 0 0 100%;
+        width: 90%;
+    }
+
+    .blog-news ul .item .avatar {
+        width: 50%;
+    }
+
+    .blog-news .content {
+        width: 50%;
+        padding: 1rem;
+    }
+}

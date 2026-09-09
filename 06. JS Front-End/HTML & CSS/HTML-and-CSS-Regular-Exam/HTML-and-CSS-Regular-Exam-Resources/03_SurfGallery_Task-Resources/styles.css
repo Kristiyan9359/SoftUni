@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2eee8;
+    color: #555;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+}
+
+h1,
+h2,
+.menu a,
+button {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+
+.top {
+    background: linear-gradient(120deg, #096776, #76d4d8);
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0;
+    padding-top: 28px;
+    padding: 28px 12px 8px;
+}
+
+.menu a:hover {
+    color: #5ee0ec;
+    cursor: pointer;
+}
+
+.menu .active {
+    padding: 28px 48px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-top: 0;
+    border-radius: 0 0 6px 6px;
+    background: rgba(255, 255, 255, 0.12);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+
+.menu .active:hover {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.hero {
+    padding: 65px 20px 90px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.hero p {
+    max-width: 850px;
+    margin: 0 auto 55px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+button {
+    background: white;
+    color: #555;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 16px 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b8490;
+    color: white;
+    border-color: #1b8490;
+}
+.hero button {
+    background: transparent;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+.hero button:hover {
+    background: white;
+    color: #1b8490;
+}
+
+.white-space {
+    height: 80px;
+    background: white;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    background: #f2eee8;
+}
+
+.photos img {
+    width: 28%;
+    height: 44vw;
+    object-fit: cover;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    background: white;
+    padding: 45px 20px 100px;
+}
+
+.articles div {
+    width: 28%;
+}
+
+.articles h2,
+.weird h2,
+footer h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.articles p {
+    min-height: 125px;
+    line-height: 1.8;
+    font-size: 13.5px;
+}
+
+.articles button,
+.weird button {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 0;
+    font-size: 13px;
+    display: block;
+    margin: 30px auto 0;
+}
+
+.signup {
+    padding: 90px 20px;
+    background: #f2eee8;
+}
+
+.signup div {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 35px;
+    background: #738d8f;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup h2 {
+    color: white;
+    font-size: 25px;
+}
+
+.signup button {
+    width: 210px;
+    padding: 16px 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #0f7180;
+}
+
+.signup button:hover {
+    background: #0f7180;
+    color: white;
+    border-color: #0f7180;
+}
+
+.weird {
+    text-align: center;
+    background: white;
+    padding: 85px 20px 18px;
+}
+
+.weird button {
+    padding: 12px 30px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.weird h2 {
+    text-transform: uppercase;
+}
+
+.small-photos {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    background: linear-gradient(to bottom, #f2eee8 0 67%, white 55% 100%);
+    padding-bottom: 95px;
+}
+
+.small-photos img {
+    width: 18%;
+    height: 12vw;
+    object-fit: cover;
+}
+
+footer {
+    background: #f2eee8;
+    border-top: 1px solid #d7d0c8;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+footer p {
+    max-width: 830px;
+    margin: 0 auto;
+    color: #24a7b8;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+footer hr {
+    width: 900px;
+    max-width: 80%;
+    margin: 95px auto 70px;
+    border: 0;
+    border-top: 1px solid #d7d0c8;
+}
+
+footer span {
+    color: #aaa;
+    font-size: 14px;
+}

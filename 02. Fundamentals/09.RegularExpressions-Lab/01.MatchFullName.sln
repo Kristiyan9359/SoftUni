@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.MatchFullName", "01.MatchFullName\01.MatchFullName.csproj", "{72C6FD3C-8D93-42A2-8ADA-16E20D781D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MatchPhoneNumber", "02.MatchPhoneNumber\02.MatchPhoneNumber.csproj", "{9268066C-5708-462C-A770-36F8EE3C3AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MatchDates", "03.MatchDates\03.MatchDates.csproj", "{1417BB94-EC30-4BC5-8503-59EEE37FA1FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C6FD3C-8D93-42A2-8ADA-16E20D781D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C6FD3C-8D93-42A2-8ADA-16E20D781D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C6FD3C-8D93-42A2-8ADA-16E20D781D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C6FD3C-8D93-42A2-8ADA-16E20D781D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9268066C-5708-462C-A770-36F8EE3C3AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9268066C-5708-462C-A770-36F8EE3C3AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9268066C-5708-462C-A770-36F8EE3C3AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9268066C-5708-462C-A770-36F8EE3C3AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1417BB94-EC30-4BC5-8503-59EEE37FA1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1417BB94-EC30-4BC5-8503-59EEE37FA1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1417BB94-EC30-4BC5-8503-59EEE37FA1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1417BB94-EC30-4BC5-8503-59EEE37FA1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

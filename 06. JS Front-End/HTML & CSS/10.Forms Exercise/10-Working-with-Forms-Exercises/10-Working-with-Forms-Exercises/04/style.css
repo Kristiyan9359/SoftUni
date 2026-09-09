@@ -1,0 +1,56 @@
+:root {
+    --primary-color: rgb(157, 157, 157);
+    --secondary-color: rgb(85, 85, 85);
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.site-content {
+    width: 300px;    
+    margin: auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.login-form label {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: var(--secondary-color);
+}
+
+.form-group input:not([type=submit]) {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-bottom-color: cadetblue;
+}
+
+.form-group-message {
+    font-size: 0.55em;
+    font-style: italic;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+input[type=submit]{
+    border:none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}

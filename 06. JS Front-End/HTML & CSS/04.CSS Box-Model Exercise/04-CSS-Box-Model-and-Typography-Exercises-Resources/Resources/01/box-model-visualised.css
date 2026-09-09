@@ -1,0 +1,36 @@
+.content-box {
+    width: 500px;
+    background-color: #a3d2e2;
+    padding: 10px;
+    text-align: center;
+}
+
+.padding-box {
+    background-color: #85eb85;
+}
+
+.border-box {
+    background-color: #ffe8c6;
+}
+
+.margin-box {
+    background-color: #ff966f;
+}
+
+.container {
+    padding: 40px;
+    display: inline-block;
+}
+
+div {
+    position: relative;
+    border-width: 1px;
+    border-color: gray;
+    border-style: dashed;
+}
+
+span {
+    position: absolute;
+    left: 10px;
+    top: 0;
+}

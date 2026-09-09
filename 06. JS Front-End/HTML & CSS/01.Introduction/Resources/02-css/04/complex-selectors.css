@@ -1,0 +1,21 @@
+nav a {
+    color: blue;
+}
+
+h2::before {
+    content: ">> ";
+    color: darkred;
+}
+
+h2::after {
+    content: " <<";
+    color: darkred;
+}
+
+section article p {
+    background-color: lightblue;
+}
+
+img {
+    border: 15px solid red;
+}

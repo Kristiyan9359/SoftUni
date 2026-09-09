@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Authors";
+}
+
+<h1 class="mb-3">Authors</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th style="width: 140px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Name</td>
+                <td>@(a.Country ?? "-")</td>
+                <td>
+                    <a class="btn btn-sm btn-outline-primary"
+                       asp-controller="Authors"
+                       asp-action="Details"
+                       asp-route-id="@a.Id">
+                        Details
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

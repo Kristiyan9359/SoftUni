@@ -1,0 +1,14 @@
+﻿@using BookShelf.Data.Models
+@model Author
+@{
+    ViewData["Title"] = "Author Details";
+}
+
+<h1 class="mb-1">@Model.Name</h1>
+<p class="text-muted">Country: @(Model.Country ?? "-")</p>
+
+<hr />
+
+<h4 class="mb-3">Books by this author</h4>
+
+<partial name="_AllBooksPartial" model="@Model.Books" />

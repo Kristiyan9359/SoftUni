@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+header {
+    width: 500px;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    font-style: italic;
+    color: #747474;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+main article {
+    width: 250px
+}
+
+main article h3,
+main article p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    width: 800px;
+    color: #747474;
+}

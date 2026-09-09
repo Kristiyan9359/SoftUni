@@ -1,0 +1,27 @@
+h1 {
+    color: green;
+    font-style: italic;
+}
+
+p {
+    font-size: 14px;
+    color: yellowgreen;
+}
+
+.fancy-text {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: purple;
+}
+
+#specific-text {
+    font-weight: bold;
+    color: red;
+}
+
+p.fancy-text {
+    text-decoration: wavy underline;
+}
+
+[href="https://softuni.bg"] {
+    text-decoration: none;
+}

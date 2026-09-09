@@ -1,0 +1,39 @@
+.highlight{
+    color: #077fff;
+    font-weight: bold;
+}
+
+.item{
+    font-size: 16px;
+}
+
+li#item1{
+    color: #17a2b8;
+}
+
+li#item2{
+    font-weight: bold;
+}
+
+li#item3{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p.special-content{
+    background-color: orange;
+}
+
+.multiple{
+    color:#077fff;
+    font-weight: bold;
+}
+    
+.fancy#softuni{
+    color: orange;
+}
+
+.fancy#this-page{
+    color: blue;
+}

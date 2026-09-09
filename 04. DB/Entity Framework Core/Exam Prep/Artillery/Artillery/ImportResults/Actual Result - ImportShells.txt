@@ -1,0 +1,75 @@
+Successfully import shell caliber #50 weight 155 mm (6.1 in) kg.
+Successfully import shell caliber #100 weight 103 mm (8 in) kg.
+Successfully import shell caliber #146 weight 203 mm (8 in) kg.
+Invalid data.
+Successfully import shell caliber #300 weight 280 mm (11 in) kg.
+Invalid data.
+Successfully import shell caliber #1500 weight 460 mm (18 in) kg.
+Successfully import shell caliber #53 weight 155mm kg.
+Successfully import shell caliber #91 weight 203 MM HOW HE M 106 (8) kg.
+Successfully import shell caliber #43.2 weight 155 MM HOW HE M107 kg.
+Successfully import shell caliber #33.4 weight 130 MM HE kg.
+Successfully import shell caliber #27 weight 122MM HOW HE kg.
+Successfully import shell caliber #19.07 weight 105MM HOW kg.
+Successfully import shell caliber #1253 weight QF 25 PDR MK 2-1 kg.
+Invalid data.
+Successfully import shell caliber #28.5 weight 122 MM HOW HE-D30 kg.
+Successfully import shell caliber #5.5 weight 105 XM915 kg.
+Successfully import shell caliber #21.8 weight 155 75-lb kg.
+Successfully import shell caliber #18.4 weight 155 M483A1 kg.
+Successfully import shell caliber #255 weight 20 mm x 102 TP kg.
+Successfully import shell caliber #254 weight 20 mm x 102 TP-T kg.
+Invalid data.
+Successfully import shell caliber #258 weight 20 x 102 mm HEI kg.
+Successfully import shell caliber #436 weight 25 mm TPDS-T kg.
+Invalid data.
+Successfully import shell caliber #440 weight 25 mm FAPDS-T kg.
+Successfully import shell caliber #440 weight 25 mm APFSDS-T kg.
+Successfully import shell caliber #835 weight 30 x 173mm TP-T kg.
+Successfully import shell caliber #890 weight 30 x 180mm HEI-T kg.
+Successfully import shell caliber #157 weight 35 mm TP-T kg.
+Successfully import shell caliber #1672 weight 40 mm HEI kg.
+Successfully import shell caliber #124 weight 155 mm HE ERFB RA-BB kg.
+Successfully import shell caliber #85 weight M777 155mm kg.
+Successfully import shell caliber #56 weight 155mm BONUS MKI kg.
+Successfully import shell caliber #58 weight 155-105mm SPACIDO kg.
+Successfully import shell caliber #51 weight 155mm LU 21 kg.
+Successfully import shell caliber #60 weight 155mm LU 214 SMK-WP kg.
+Successfully import shell caliber #61 weight 155mm LU 215 ILLUM kg.
+Successfully import shell caliber #62 weight 155mm LU 216 ILLUM IR kg.
+Invalid data.
+Successfully import shell caliber #63 weight 155mm LU 107 kg.
+Successfully import shell caliber #64 weight 155mm LU 110 SMK-WP kg.
+Successfully import shell caliber #65 weight 155mm HE L15A1 kg.
+Successfully import shell caliber #66 weight 155mm HE M107 kg.
+Successfully import shell caliber #67 weight 55mm MODULAR CHARGE SYSTEM kg.
+Successfully import shell caliber #68 weight 155mm IPC35 kg.
+Successfully import shell caliber #69 weight 155mm IPC36 kg.
+Invalid data.
+Invalid data.
+Successfully import shell caliber #70 weight 105mm HE BB ER G3 kg.
+Successfully import shell caliber #71 weight 105mm L14 HE M1 kg.
+Successfully import shell caliber #75 weight 105mm SMK BB ER G3 kg.
+Successfully import shell caliber #79 weight 105mm SMK HB ER G3 kg.
+Successfully import shell caliber #80 weight PDM 728 IM kg.
+Successfully import shell caliber #84 weight FB375 kg.
+Invalid data.
+Successfully import shell caliber #88 weight 120mm MORTAR HE kg.
+Invalid data.
+Successfully import shell caliber #90 weight 120mm MORTAR HE-IM kg.
+Invalid data.
+Successfully import shell caliber #96 weight 120mm MORTAR HE PRAC kg.
+Invalid data.
+Successfully import shell caliber #91 weight 120mm MORTAR SMK(WP) kg.
+Successfully import shell caliber #99 weight 120mm MORTAR IL kg.
+Invalid data.
+Successfully import shell caliber #93 weight 105mm L51 HEAT kg.
+Successfully import shell caliber #20 weight 105mm L51 TP kg.
+Successfully import shell caliber #30 weight 105mm HE F3B kg.
+Successfully import shell caliber #40 weight 105mm HEAT-TP F3A kg.
+Invalid data.
+Successfully import shell caliber #45 weight TD 20-90 kg.
+Successfully import shell caliber #35 weight 90mm MK3 HE-T kg.
+Successfully import shell caliber #38 weight 90mm MK3 SMK(WP)-T kg.
+Successfully import shell caliber #55 weight 520mm AK3 BSW kg.
+Invalid data.

@@ -1,0 +1,44 @@
+h1 {
+    font-size: 1.5em;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+header,
+nav,
+section,
+footer {
+    padding: 10px;
+    margin: 10px;
+    border-width: 1px;
+    border-color: rgb(189, 189, 189);
+    border-style: solid;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,169 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ececec;
+}
+
+nav {
+    background: #d9d9d9;
+    padding: 1rem 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav button {
+    padding: 0.45rem 0.9rem;
+    border: 1px solid #888;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.90rem;
+}
+
+.hero {
+    height: 800px;
+
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    margin-left: 12rem;
+    width: 420px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    width: 420px;
+}
+
+.hero-content p {
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+
+.hero-content button {
+    padding: 1rem 2rem;
+    background: black;
+    color: white;
+    border: none;
+    margin-left: 5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stats {
+    background: white;
+    padding: 4rem;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stats h2 {
+    color: #ff7a45;
+    font-size: 4rem;
+}
+
+.articles {
+    padding: 4rem 5rem;
+    background: #ddd;
+}
+
+.post {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.post img {
+    width: 450px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.post div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.pricing {
+    background: white;
+    padding: 4rem;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.pricing-info {
+    width: 300px;
+}
+
+.plan {
+    width: 350px;
+    padding: 2rem;
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.orange {
+    background: #ff7a45;
+}
+
+.black {
+    background: black;
+    color: white;
+}
+
+.price {
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+
+.plan button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+}
+
+footer {
+    background: #ddd;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}

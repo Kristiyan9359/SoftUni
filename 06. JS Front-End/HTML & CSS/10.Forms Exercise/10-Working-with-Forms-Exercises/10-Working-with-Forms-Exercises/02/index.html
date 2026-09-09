@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <main class="site-content">
+        <form class="login-form" action="#" method="post">
+            <div class="form-header">
+                <h1>Login</h1>
+            </div>
+
+            <div class="form-group">
+                <div class="form-group-header">
+                    <label for="email">Email</label>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <input type="email" id="email" name="email">
+                <div class="form-group-message">example: konstantin.dankov@gmail.com</div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-group-header">
+                    <label for="password">Password</label>
+                    <i class="fa-solid fa-key"></i>
+                </div>
+
+                <input type="password" id="password" name="password">
+                <div class="form-group-message">minimum 6 characters, letters and numbers, at least 1 special character</div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

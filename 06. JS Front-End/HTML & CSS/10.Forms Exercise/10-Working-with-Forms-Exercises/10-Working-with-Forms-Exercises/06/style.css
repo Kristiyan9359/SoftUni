@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #ffa500;
+    --secondary-color: #ac7001;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.radio-button,
+.checkbox-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-button input,
+.checkbox-button input {
+    opacity: 0;
+    position: absolute;
+}
+
+.radio-button span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 100%;
+}
+
+.radio-button input:checked + span {
+    background-color: var(--secondary-color);
+}
+
+.checkbox-button span {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+.checkbox-button span::before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    position: relative;
+    left: 1px;
+    top: 1px;
+    transition: left 0.4s ease;
+}
+
+.checkbox-button input:checked + span::before {
+    left: 16px;
+}
+
+.checkbox-button input:checked + span {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}

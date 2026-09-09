@@ -1,0 +1,21 @@
+div {
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+div p {
+    color: blue;
+}
+
+ul > li {
+    list-style-type: circle;
+}
+
+p + p {
+    background-color: lightgray;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+:root {
+    --primary-color: rgb(157, 157, 157);
+    --secondary-color: rgb(85, 85, 85);
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.site-content {
+    width: 300px;
+    margin: auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login-form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px;
+    border: none;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.login-form label,
+.login-form legend {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: var(--secondary-color);
+}
+
+.login-form legend {
+    padding: 0 10px;
+}
+
+.form-group input:not([type=submit]) {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-bottom-color: cadetblue;
+}
+
+.form-group input[type=date] {
+    padding: 10px 0;
+}
+
+.form-group-message {
+    font-size: 0.55em;
+    font-style: italic;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}

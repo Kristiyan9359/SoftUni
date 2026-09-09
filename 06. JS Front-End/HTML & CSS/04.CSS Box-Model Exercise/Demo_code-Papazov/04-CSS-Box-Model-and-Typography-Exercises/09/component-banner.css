@@ -1,0 +1,31 @@
+body, h1 {
+    margin: 0;
+}
+
+.hero-section {
+    background-image: url(images/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 675px;
+    position: relative;
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+}
+
+.hero-section header {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-section h1,
+.hero-section h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}

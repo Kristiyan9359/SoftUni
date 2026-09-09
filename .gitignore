@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET
+bin/
+obj/
+Debug/
+Release/
+
+# Node.js
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+
+# Archives
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

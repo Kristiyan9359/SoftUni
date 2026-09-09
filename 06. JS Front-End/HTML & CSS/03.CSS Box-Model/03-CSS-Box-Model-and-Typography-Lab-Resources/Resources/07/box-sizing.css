@@ -1,0 +1,17 @@
+.content-box {
+    box-sizing: content-box;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin: 20px;
+    background-color: #eee;
+}
+
+.border-box {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin: 20px;
+    background-color: #eee;
+}

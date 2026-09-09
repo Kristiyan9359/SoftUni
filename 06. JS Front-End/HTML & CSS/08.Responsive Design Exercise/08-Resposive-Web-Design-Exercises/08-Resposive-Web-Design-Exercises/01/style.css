@@ -1,0 +1,25 @@
+.site-section {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.site-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-content main {
+    flex-grow: 2;
+}
+
+.site-content aside {
+    flex-grow: 1;
+}
+
+@media (max-width: 800px) {
+    .site-content {
+        flex-direction: column;
+    }
+}

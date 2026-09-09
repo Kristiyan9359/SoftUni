@@ -1,0 +1,26 @@
+section {
+    border: 2px solid #000;
+    padding: 2em;
+    position: relative;
+}
+
+.item {
+    Border: 1px solid #333;
+    Padding: 0.5em;
+    Width: 5em;
+    Height: 5em;
+}
+
+section:nth-of-type(2) .item:nth-child(2) {
+    position: relative;
+    left: 5em;
+    top: 2em;
+    background-color: lightgreen;
+}
+
+section:nth-of-type(3) .item:nth-child(2) {
+    position: absolute;
+    left: 4em;
+    top: 4em;
+    background-color: lightgreen;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+section p {
+    color: rgb(0, 78, 0);
+}
+
+.nested-list>li a {
+    text-decoration: none;
+}
+
+.article-highlighted+p {
+    background-color: coral;
+
+}
+
+h2~p {
+    color: blue;
+}
+
+li.specific + li a {
+    color: green;
+}
+
+ul li:nth-child(2) {
+    color: chocolate;
+}
